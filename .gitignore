@@ -1,0 +1,48 @@
+# Dependencies and production output
+node_modules/
+dist/
+
+# Environment and local secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temporary recordings and generated video output
+*.webm
+*.mp4
+*.mov
+*.mkv
+recordings/
+videos/
+output/
+outputs/
+
+# Local caches and temporary files
+.cache/
+.pnpm-store/
+.vite/
+.temp/
+.tmp/
+tmp/
+temp/
+.firefox-mp4-test*/
+*.tmp
+*.temp
+
+# Test and coverage output
+coverage/
+
+# Editor and operating-system metadata
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
